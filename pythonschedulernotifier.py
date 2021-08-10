@@ -1,11 +1,11 @@
-import schedule # install schedule 
+import schedule # first install the schedule and playsound module
 import time
-from playsound import playsound # install playsound 
+from playsound import playsound 
 
 # list of task
 def wakeup():
     print("Wakeup Wakeup...")
-    playsound("sound(1).wav")
+    playsound("sound(1).wav") # music file 
 
 schedule.every(5).seconds.do(wakeup)
 
