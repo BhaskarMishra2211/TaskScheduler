@@ -5,9 +5,9 @@ from playsound import playsound
 # some task
 def wakeupcall():
     print("Wakeup Wakeup")
-    playsound("sound(1).WAV")
+    playsound("sound(1).WAV")# music file
 
-schedule.every(10).seconds.do(wakeupcall)
+schedule.every(10).seconds.do(wakeupcall) # set schedule
 
 def officetime():
     print("Office time...")
